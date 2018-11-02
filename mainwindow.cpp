@@ -6,6 +6,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ui->label->setFont(QFont("Times", 20, QFont::Bold));
 }
 
 MainWindow::~MainWindow()
